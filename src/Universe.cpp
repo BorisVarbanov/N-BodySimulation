@@ -2,6 +2,8 @@
 #include "Utilities.h"
 #include <fstream>
 #include <iostream>
+
+//A Program written by Orhi
 Universe::Universe(){
 	_integrator = NULL;
 	_timeStep = 0;
