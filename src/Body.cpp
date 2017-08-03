@@ -98,8 +98,6 @@ double Body::get_speed() const{
 	return abs(_velocity.get_norm());
 } //Returns the speed of the object
 
-
-
 void Body::load(const std::string& strData){
 	std::istringstream iss(strData);	//open the string in a stringstream
 	std::string token;
